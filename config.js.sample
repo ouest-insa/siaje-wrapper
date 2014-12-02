@@ -1,0 +1,7 @@
+module.exports = {
+    connection: {
+        login: 'a-smith',
+        pass: 's3cr3t',
+        je: 'ouest_insa'
+    }
+}

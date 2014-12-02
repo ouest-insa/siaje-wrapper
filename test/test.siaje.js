@@ -3,10 +3,10 @@ var should = require('chai').should(),
     Siaje = require('../lib/siaje');
 
 describe('#connect', function() {
-    it('connect to SIAJE',function() {
+    it('connect to SIAJE',function(done) {
         var s = new Siaje(conf.connection.je, conf.connection.login, conf.connection.pass, function(err) {
-           err.should.equal(null); 
+           should.not.exist(err); 
+           done();
         });
-
     });
 });
