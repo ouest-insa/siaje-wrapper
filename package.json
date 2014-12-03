@@ -1,27 +1,30 @@
 {
-  "name": "siaje-wrapper",
-  "version": "0.0.2",
-  "description": "A wrapper for SIAJE",
-  "main": "lib/siaje.js",
-  "directories": {
-    "example": "examples",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha -t 5000 -R progress -b"
-  },
-  "keywords": [
-    "api",
-    "wrapper",
-    "siaje"
-  ],
-  "author": "Quentin Dufour",
-  "license": "MIT",
-  "devDependencies": {
-    "chai": "^1.10.0",
-    "mocha": "^2.0.1"
-  },
-  "dependencies": {
-    "request": "^2.49.0"
-  }
+    "name": "siaje-wrapper",
+    "version": "0.0.2",
+    "description": "A wrapper for SIAJE",
+    "main": "lib/siaje.js",
+    "directories": {
+        "example": "examples",
+        "test": "test"
+    },
+    "scripts": {
+        "test": "mocha -t 5000 -R progress -b"
+    },
+    "keywords": [
+        "api",
+        "wrapper",
+        "siaje"
+    ],
+    "author": "Quentin Dufour",
+    "license": "MIT",
+    "devDependencies": {
+        "chai": "^1.10.0",
+        "mocha": "^2.0.1"
+    },
+    "dependencies": {
+        "request": "^2.49.0"
+    },
+    "repository": {
+        "url": "https://github.com/ouest-insa/siaje-wrapper"
+    }
 }
