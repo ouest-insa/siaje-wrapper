@@ -1,6 +1,6 @@
 {
     "name": "siaje-wrapper",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "description": "A wrapper for SIAJE",
     "main": "lib/siaje.js",
     "directories": {
