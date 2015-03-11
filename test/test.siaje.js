@@ -47,4 +47,11 @@ describe('Siaje.getStudy()', function() {
            done();
         });
     });
+    
+    it('retrieve a study which doesn\'t exist',function(done) {
+        global.s.getStudy(195, function(err,res) {
+           should.exist(err);
+           done();
+        });
+    });
 });
