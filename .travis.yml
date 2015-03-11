@@ -4,10 +4,7 @@ addons:
     code_climate:
         repo_token: f40544764ac73d542edf05eaef670d05f35573b9b62f0f299b653d760cf19059
 node_js:
-    - "0.12"
-    - "0.11"
-    - "0.10"
-    - "iojs"
+    - "node"
 before_script:
     - "cp config.js.sample config.js"
     - npm install -g codeclimate-test-reporter
