@@ -37,3 +37,12 @@ describe('Siaje.getStudies()', function() {
         });
     });
 });
+
+describe('Siaje.getStudy()', function() {
+    it('retrieve a study',function(done) {
+        global.s.getStudy(2, function(err,res) {
+           should.not.exist(err);
+           done();
+        });
+    });
+});

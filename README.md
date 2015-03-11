@@ -2,6 +2,7 @@ siaje-wrapper
 =============
 
 An API for SIAJE. Early dev, be careful.
+[![Build Status](https://travis-ci.org/ouest-insa/siaje-wrapper.svg)](https://travis-ci.org/ouest-insa/siaje-wrapper)
 
 Usage
 -----
