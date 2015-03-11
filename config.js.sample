@@ -1,7 +1,8 @@
 module.exports = {
     connection: {
-        login: 'a-smith',
-        pass: 's3cr3t',
+        base_url: 'https://pro.siaje.com',
+        login: 'apitravis',
+        pass: 'apitravis',
         je: 'ouest_insa'
     }
 }

@@ -1,8 +1,11 @@
 siaje-wrapper
 =============
 
-An API for SIAJE. Early dev, be careful.
 [![Build Status](https://travis-ci.org/ouest-insa/siaje-wrapper.svg)](https://travis-ci.org/ouest-insa/siaje-wrapper)
+[![Code Climate](https://codeclimate.com/github/ouest-insa/siaje-wrapper/badges/gpa.svg)](https://codeclimate.com/github/ouest-insa/siaje-wrapper)
+[![Test Coverage](https://codeclimate.com/github/ouest-insa/siaje-wrapper/badges/coverage.svg)](https://codeclimate.com/github/ouest-insa/siaje-wrapper)
+
+An API for SIAJE. Early dev, be careful.
 
 Usage
 -----
