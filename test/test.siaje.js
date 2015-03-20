@@ -42,7 +42,7 @@ describe('Siaje.getStudies()', function() {
 
 describe('Siaje.getStudy()', function() {
     it('retrieve a study',function(done) {
-        global.s.getStudy(33, function(err,res) {
+        global.s.getStudy(36, function(err,res) {
            should.not.exist(err);
            done();
         });
